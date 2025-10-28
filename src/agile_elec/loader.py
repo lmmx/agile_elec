@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import polars as pl
-import polars_genson
+import polars_genson  # noqa: F401
 
 
 def load_agile_data():
