@@ -1,8 +1,8 @@
-from agile_elec.loader import load_agile_data
 from agile_elec.analysis import (
     calculate_over_threshold_pct,
     calculate_savings_counterfactual,
 )
+from agile_elec.loader import load_agile_data
 
 
 def format_gbp(amount: float) -> str:
